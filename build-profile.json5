@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\86151\\.ohos\\config\\auto_debug_Horoscope_Inquiry_hit.edu.cn_30086000686773276.cer",
+          "storePassword": "0000001B2A44EA118A8F4E71A2CAC1DEF6564FB2226E79906F23504A0724E937436050D11FFB4B325282FA",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BFE99C00AECA7D560736D0512AD166CC52CAB0091CA23E6DD1A96BCC7562F58C053C365E2B129B3",
+          "profile": "C:\\Users\\86151\\.ohos\\config\\auto_debug_Horoscope_Inquiry_hit.edu.cn_30086000686773276.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\86151\\.ohos\\config\\auto_debug_Horoscope_Inquiry_hit.edu.cn_30086000686773276.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
